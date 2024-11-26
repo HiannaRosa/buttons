@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+:root{
+    --main-bg:url(/img/jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+    --white:#fff;
+    --penn-blue:#001F54;
+    --delft-blue:#182A62;
+    --egyptian-blue:#00348F;
+    --green-blue: #055FB3;
+    --cerulean:#1282A2;
+    --aero:#18B2DC;
+}

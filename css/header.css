@@ -1,0 +1,20 @@
+header{
+    padding: 1rem;
+    background: var(--main-bg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a img{
+    width: 5rem;
+    transition: .1s;
+}
+
+img:hover{
+    transform: scale(105%);
+    transition: .1s;
+}
+
+ul li{
+    display: flex;
+}

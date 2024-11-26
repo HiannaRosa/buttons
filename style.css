@@ -1,0 +1,71 @@
+@import url(./css/global.css);
+@import url(./css/header.css);
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+body main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 10rem;
+}
+
+main h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    letter-spacing: .2rem;
+    text-decoration: underline;
+    color: var(--delft-blue);
+}
+
+button{
+    border: none;
+    text-transform: uppercase;
+    padding: 2.5rem;
+    width: 20rem;
+    border-radius: .7rem;
+    font-size: 1.2rem;
+    letter-spacing: .10rem;
+    cursor: pointer;
+    color: var(--white);
+    
+    background: linear-gradient(100deg, 
+    var(--penn-blue),
+    var(--cerulean),  
+    var(--penn-blue));
+    background-size: 300%;
+    background-position: left;
+    transition: .3s;
+}
+
+button:hover{
+    transform: scale(110%);
+    rotate: 5deg;
+    text-shadow: 0px 0px 10px var(--white);
+    background-position: right;
+    transition: .3s;
+}
+
+button:active{
+    transform: scale(90%);
+    rotate: 0deg;
+    background: linear-gradient(100deg, 
+    var(--delft-blue),
+    var(--green-blue),  
+    var(--delft-blue),
+    var(--delft-blue),
+    var(--green-blue),  
+    var(--delft-blue));
+    background-position: left;
+    color: var(--white);
+    font-weight: 600;
+    box-shadow: 0px 0px 30px var(--aero);
+    transition: .2s;
+}
